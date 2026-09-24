@@ -83,7 +83,7 @@ groom N partial-PDU fragbufs (0x1050 chunks; dealloc callback at +0x18) in front
 ## Install
 
 ```bash
-git clone https://github.com/<you>/vmware-torpedo.git
+git clone https://github.com/Hann1bl3L3ct3r/VMwareTorpedo.git
 cd vmware-torpedo
 chmod +x vmware_torpedo.py
 ```
