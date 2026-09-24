@@ -40,9 +40,7 @@ You are responsible for your own use of this code. The author accepts no liabili
 
 `vmware_torpedo.py` is a weaponized proof-of-concept for **CVE-2024-38812**, a CVSS 9.8 pre-auth heap overflow in `libdcerpc.so`, the DCE/RPC runtime (derived from Likewise Open / OSF DCE 1.1) shared by vCenter's `vmdird`, `vmcad`, and `vmafdd` daemons. The CVE is on the [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) list with confirmed in-the-wild exploitation, but no public **no-login RCE** PoC existed at the time of release.
 
-The PoC mechanics are identical to the reference implementation `cve_2024_38812_vmdird_rce.py`; this file adds a themed presentation layer (ASCII banner + colored fire-control status output). Both drive the same validated chain.
-
-📖 **Full technical writeup:** *[The Bug That Reads and Writes: Reverse-Engineering vCenter's DCE/RPC Heap Overflow](https://medium.com/@cihananthony/the-bug-that-reads-and-writes-reverse-engineering-vcenters-dce-rpc-heap-overflow-cve-2024-38812-499d03187858?sharedUserId=cihananthony)*.
+**Full technical writeup:** *[The Bug That Reads and Writes: Reverse-Engineering vCenter's DCE/RPC Heap Overflow](https://medium.com/@cihananthony/the-bug-that-reads-and-writes-reverse-engineering-vcenters-dce-rpc-heap-overflow-cve-2024-38812-499d03187858?sharedUserId=cihananthony)*.
 
 ---
 
