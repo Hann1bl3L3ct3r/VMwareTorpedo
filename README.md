@@ -42,7 +42,7 @@ You are responsible for your own use of this code. The author accepts no liabili
 
 The PoC mechanics are identical to the reference implementation `cve_2024_38812_vmdird_rce.py`; this file adds a themed presentation layer (ASCII banner + colored fire-control status output). Both drive the same validated chain.
 
-📖 **Full technical writeup:** *[The Bug That Reads and Writes: Reverse-Engineering vCenter's DCE/RPC Heap Overflow](https://medium.com/@cihananthony/the-bug-that-reads-and-writes-reverse-engineering-vcenters-dce-rpc-heap-overflow-cve-2024-38812-499d03187858?sharedUserId=cihananthony)* (link to Medium article).
+📖 **Full technical writeup:** *[The Bug That Reads and Writes: Reverse-Engineering vCenter's DCE/RPC Heap Overflow](https://medium.com/@cihananthony/the-bug-that-reads-and-writes-reverse-engineering-vcenters-dce-rpc-heap-overflow-cve-2024-38812-499d03187858?sharedUserId=cihananthony)*.
 
 ---
 
