@@ -1,6 +1,6 @@
 # VMWARE TORPEDO — CVE-2024-38812
 
-**Unauthenticated, network-only remote code execution against VMware vCenter Server's directory service (`vmdird`) over DCE/RPC.**
+**Unauthenticated, network-only remote code execution against VMware vCenter Server's directory service (`vmdird`) over DCE/RPC. (Only Version 7)**
 
 No login. No information leak. No address oracle. No allocator tuning. One build-constant, one fixed PLT address, and a naval fire-control theme because research should be fun.
 
